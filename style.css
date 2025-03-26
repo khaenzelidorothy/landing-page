@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    width: 98%;
+    margin: 12px;
+    padding: 0;
+
+}
+body{
+  
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(228, 242, 247);
+}
+nav{
+ display: flex;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+  
+}
+nav div{
+    display: flex;
+    margin-top: 12px;
+    
+}
+nav button{
+    display: inline-block;
+
+}
+.buttons{
+  display: flex;
+  width: 50%;
+
+}
+section{
+    display: flex;
+    
+}
+
+
+.footer-bottom{
+    display: flex;
+    
+}
+.links ul{
+    list-style: none;
+    line-height: 1cm;
+}
+a{
+    text-decoration: none;
+    color: black;
+  
+}
+ u{
+    color: red;
+    text-decoration: underline red;
+}
+.last-section u{
+    color: black;
+    text-decoration: underline black;
+}
+#contact{
+    color: black;
+    text-decoration: underline black;
+}
+#store{
+    background-color: black;
+    color: white;
+    padding: 0;
+}
+.pay{
+    display: flex;
+}
+.work{
+    display: flex;   
+}
+.about{
+    background-color: white;
+    border-radius: 20px;
+}
+.loading{
+    background-color: white;
+    border-radius: 20px;
+}
+.salary{
+    display: flex;
+}
+.salary img{
+    width: 50%;
+    border-radius: 22px;
+}
+img{
+    width:30%;
+    border-radius: 15px 15px ;
+}
+.left{
+    transform: rotate(-5deg);
+    width: 50%;
+}
+.services{
+    display: flex;
+
+}
+.create{
+    position: absolute;
+    background-color: white;
+    width: 60%;
+    display: flex;
+    top: -2%;
+    left: 4%;
+}
+.create button{
+    width: 50%;
+    margin: 40px;   
+}
+.study{
+    width: 25%;
+    background-color: white;
+    padding-left: 33px;
+}
+.join{
+    width: 50%;
+    padding: 11px;
+}
+.statistics{
+    display: flex;
+}
+.right{
+    padding: 80px;
+    line-height: 1.5cm;
+}
+.right h2{
+    font-size: 0.5in;
+}
+.grow p{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+container h3{
+    display: flex;
+    justify-content: center;
+    font-size: 0.4in;
+}
+.heading{
+    font-size: 0.3in;
+    font-weight: 900;
+
+}
+.interface{
+    background-color: white;
+    width: 35%;
+    height: 350px;
+    padding-top: 9%;
+    padding-left: 12px;
+    text-align: center;
+}
+.main h3{
+    font-size: 0.4in;
+}
+.main p{
+    font-size: 20px;
+}
+.rectangle{
+    position: relative;
+    width: 80%;
+    height: 35%;
+    background-color: bisque;
+}
+.aside{
+    position: relative;
+}
+.signing h2{
+    font-size: 0.4in;
+    display: flex;
+    justify-content: center;
+}
+.social {
+    display: flex;
+}
+.account{
+    background-color: white;
+    border-radius: 23px;
+    transform: rotate(5deg);
+    width: 70%;
+    height: 125%;
+    padding-left: 9%;
+}
+.boost{
+    background-color: white;
+    border-radius: 23px;
+    transform: rotate(5deg);
+    width: 80%;
+    height: 125%;
+    padding: 7%;
+}
+.split-right{
+    font-size: x-large;
+    line-height: 1cm;
+}
+.about-clients{
+    margin-top: 8%;
+    display: flex;
+    font-size: x-large;
+}
+.about-client {
+    display: flex;
+   justify-content: center;
+   font-size: 0.4in;
+   /* margin-left: 32%; */
+}
+.responses{
+  display: flex;
+
+}
+.responses-left{
+    border: 1px solid palevioletred;
+    width: 80%;
+   
+}
+.image{
+    width: 270%;
+    margin-left: 12%;
+}
+.mobile{
+    margin-left: -40%;
+    font-size: 32px;
+    margin-top: 10%;
+}
+.last-section{
+    margin-top: 7%;
+    margin-bottom: 8%;
+}
+.icon{
+    display: flex;
+}
+
