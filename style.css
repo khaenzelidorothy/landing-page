@@ -1,14 +1,15 @@
 *{
     box-sizing: border-box;
-    width: 98%;
+    width: 100%;
     margin: 12px;
     padding: 0;
 
 }
 body{
-  
+    overflow-x: hidden;
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: rgb(228, 242, 247);
+    background-color: rgb(222, 227, 230);
+    padding-right: 5%;
 }
 nav{
  display: flex;
@@ -16,9 +17,12 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
-    justify-content: space-around;
-
-  
+    justify-content: space-around;  
+}
+.two-img{
+    width: 30%;
+    display: flex;
+    gap: 3.5cm;
 }
 nav div{
     display: flex;
@@ -38,19 +42,28 @@ section{
     display: flex;
     
 }
-
+button{
+    padding: 16px;
+    border-radius: 13px;
+    width: 50%;
+}
+#sign-up{
+    background-color: rgb(228, 89, 135);
+}
 
 .footer-bottom{
     display: flex;
-    
+    background-color: rgb(23, 23, 63);
+    color: white;
 }
+
 .links ul{
     list-style: none;
     line-height: 1cm;
 }
 a{
     text-decoration: none;
-    color: black;
+    color:rgb(182, 181, 181);
   
 }
  u{
@@ -134,11 +147,7 @@ img{
 .right h2{
     font-size: 0.5in;
 }
-.grow p{
-    display: flex;
-    justify-content: center;
-    font-size: x-large;
-}
+
 container h3{
     display: flex;
     justify-content: center;
@@ -172,10 +181,16 @@ container h3{
 .aside{
     position: relative;
 }
+.signing{
+    margin-top: 10%;
+}
 .signing h2{
     font-size: 0.4in;
     display: flex;
     justify-content: center;
+}
+#second-img{
+    margin-top: 2%;
 }
 .social {
     display: flex;
@@ -235,5 +250,25 @@ container h3{
 }
 .icon{
     display: flex;
+}
+/* .circle{
+    border:1px solid blue;
+    width: 10%;
+    height: 15%;
+    border-radius: 50%;
+ 
+} */
+.loading{
+    display: flex;
+}
+.media-app{
+    display: flex;
+    width: 50%;
+    margin-left: 12%;
+}
+.grow p{
+    display: flex;
+    justify-content: center;
+    font-size: 0.3in;
 }
 
