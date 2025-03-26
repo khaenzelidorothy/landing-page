@@ -233,7 +233,16 @@ container h3{
 .responses-left{
     border: 1px solid palevioletred;
     width: 80%;
-   
+    padding-top: 8%;
+}
+.responses-left img{
+    width: 10%;
+}
+.responses-right{
+    padding-top: 8%;
+}
+.responses-right img{
+    width: 10%;
 }
 .image{
     width: 270%;
@@ -271,4 +280,6 @@ container h3{
     justify-content: center;
     font-size: 0.3in;
 }
+
+
 
